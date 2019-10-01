@@ -5,7 +5,7 @@ def hangman(choice):
 	key3='n'
 	turn=9
 	key4='Y'
-	word=['ball','banana','cheat','friend','missrobot']
+	word=['theroy','chocolate','court','joly','robot','water','Bang']
 	theword=random.choice(word)
 	if not choice.isalpha():
 		print("Sorry You enter a special character,try again")
